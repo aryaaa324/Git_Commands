@@ -6,19 +6,19 @@ A beginner-friendly and categorized reference for essential Git commands with ex
 
 ## Table of Contents
 
-1. [1. Installation](#1-installation)
-2. [2. Initializing Git Repository](#2-initializing-git-repository)
-3. [3. Basic File Operations](#3-basic-file-operations)
-4. [4. View History](#4-view-history)
-5. [5. Branching](#5-branching)
-6. [6. Remote Repositories](#6-remote-repositories)
-7. [7. Pull Requests (on GitHub)](#7-pull-requests-on-github)
-8. [8. Merge & Conflict Resolution](#8-merge--conflict-resolution)
-9. [9. Forking](#9-forking)
-10. [10. Rebasing](#10-rebasing)
-11. [11. Cherry-Picking](#11-cherry-picking)
-12. [12. Reset & Revert](#12-reset--revert)
-13. [13. Stashing](#13-stashing)
+ [1. Installation](#1-installation)
+ [2. Initializing Git Repository](#2-initializing-git-repository)
+ [3. Basic File Operations](#3-basic-file-operations)
+ [4. View History](#4-view-history)
+ [5. Branching](#5-branching)
+ [6. Remote Repositories](#6-remote-repositories)
+ [7. Pull Requests (on GitHub)](#7-pull-requests-on-github)
+ [8. Merge & Conflict Resolution](#8-merge--conflict-resolution)
+ [9. Forking](#9-forking)
+ [10. Rebasing](#10-rebasing)
+ [11. Cherry-Picking](#11-cherry-picking)
+ [12. Reset & Revert](#12-reset--revert)
+ [13. Stashing](#13-stashing)
 
 ## 1. Installation
 
