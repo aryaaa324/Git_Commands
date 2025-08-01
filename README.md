@@ -514,6 +514,12 @@ git clone https://github.com/your-username/forked-repo.git
 ```
 
 ---
+## 🙌 Contributing
+Have a command or section you'd like to add? Feel free to open an issue or submit a pull request.
 
+## 📄 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this guide.
 
-
+## 👤 Author
+Maintained by Arya Kashikar.
+If you found this helpful, consider ⭐️ starring the repo!
