@@ -4,13 +4,13 @@ This repository contains all the essential git commands, great for quick revisio
 
 
 ````markdown
-# 🚀 Git Commands Cheat Sheet
+#  Git Commands Cheat Sheet
 
 A beginner-friendly and categorized reference for essential Git commands with examples.
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 1. [Installation](#-1-installation)
 2. [Initializing Git Repository](#-2-initializing-git-repository)
@@ -28,7 +28,7 @@ A beginner-friendly and categorized reference for essential Git commands with ex
 
 ---
 
-## 🛠️ 1. Installation
+##  1. Installation
 
 - **Install Git**
   ```bash
@@ -39,7 +39,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 📁 2. Initializing Git Repository
+##  2. Initializing Git Repository
 
 * **Initialize Git in a Project**
 
@@ -51,7 +51,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 🧾 3. Basic File Operations
+##  3. Basic File Operations
 
 * **Check Status of Files**
 
@@ -87,7 +87,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 📜 4. View History
+##  4. View History
 
 * **View Commit History**
 
@@ -107,7 +107,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 🌿 5. Branching
+##  5. Branching
 
 * **Create a Branch**
 
@@ -151,7 +151,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## ☁️ 6. Remote Repositories
+##  6. Remote Repositories
 
 * **Add Remote Origin**
 
@@ -195,14 +195,14 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 🔀 7. Pull Requests (on GitHub)
+##  7. Pull Requests (on GitHub)
 
 * **Pull Request (Manual via GitHub UI)**
   Push your branch and go to GitHub → "Compare & pull request" → Submit pull request.
 
 ---
 
-## ⚔️ 8. Merge & Conflict Resolution
+##  8. Merge & Conflict Resolution
 
 * **Merge Branch**
 
@@ -217,7 +217,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 🍴 9. Forking
+##  9. Forking
 
 * **Fork a Repo (via GitHub UI)**
   Use GitHub’s "Fork" button → then:
@@ -228,7 +228,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 🔁 10. Rebasing
+##  10. Rebasing
 
 * **Rebase Current Branch**
 
@@ -248,7 +248,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 🍒 11. Cherry-Picking
+##  11. Cherry-Picking
 
 * **Cherry Pick a Commit**
 
@@ -260,7 +260,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## ♻️ 12. Reset & Revert
+##  12. Reset & Revert
 
 * **Reset to Previous Commit**
 
@@ -280,7 +280,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-## 📦 13. Stashing
+##  13. Stashing
 
 * **Stash Current Changes**
 
