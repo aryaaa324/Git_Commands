@@ -1,16 +1,10 @@
-# Git_Commands
-This repository contains all the essential git commands, great for quick revisions !
-
-
-
-````markdown
-#  Git Commands Cheat Sheet
+# Git Commands Cheat Sheet
 
 A beginner-friendly and categorized reference for essential Git commands with examples.
 
 ---
 
-##  Table of Contents
+## Table of Contents
 
 1. [Installation](#-1-installation)
 2. [Initializing Git Repository](#-2-initializing-git-repository)
@@ -28,18 +22,19 @@ A beginner-friendly and categorized reference for essential Git commands with ex
 
 ---
 
-##  1. Installation
+## 1. Installation
 
-- **Install Git**
-  ```bash
-  sudo apt install git
-````
+Install Git
+
+```bash
+sudo apt install git
+```
 
 Installs Git on Debian-based systems.
 
 ---
 
-##  2. Initializing Git Repository
+## 2. Initializing Git Repository
 
 * **Initialize Git in a Project**
 
@@ -51,7 +46,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  3. Basic File Operations
+## 3. Basic File Operations
 
 * **Check Status of Files**
 
@@ -87,7 +82,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  4. View History
+## 4. View History
 
 * **View Commit History**
 
@@ -107,7 +102,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  5. Branching
+## 5. Branching
 
 * **Create a Branch**
 
@@ -151,7 +146,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  6. Remote Repositories
+## 6. Remote Repositories
 
 * **Add Remote Origin**
 
@@ -195,14 +190,14 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  7. Pull Requests (on GitHub)
+## 7. Pull Requests (on GitHub)
 
 * **Pull Request (Manual via GitHub UI)**
   Push your branch and go to GitHub → "Compare & pull request" → Submit pull request.
 
 ---
 
-##  8. Merge & Conflict Resolution
+## 8. Merge & Conflict Resolution
 
 * **Merge Branch**
 
@@ -217,7 +212,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  9. Forking
+## 9. Forking
 
 * **Fork a Repo (via GitHub UI)**
   Use GitHub’s "Fork" button → then:
@@ -228,7 +223,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  10. Rebasing
+## 10. Rebasing
 
 * **Rebase Current Branch**
 
@@ -248,7 +243,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  11. Cherry-Picking
+## 11. Cherry-Picking
 
 * **Cherry Pick a Commit**
 
@@ -260,7 +255,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  12. Reset & Revert
+## 12. Reset & Revert
 
 * **Reset to Previous Commit**
 
@@ -280,7 +275,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  13. Stashing
+## 13. Stashing
 
 * **Stash Current Changes**
 
@@ -312,36 +307,24 @@ Installs Git on Debian-based systems.
 
 ---
 
-Got it! You're asking for **realistic team collaboration examples** using Git — like how team members would use Git commands while working together on a shared project.
+## Scenario-wise Git Command Questions:
 
-Here are **common team collaboration scenarios** along with **Git commands** to be used at each step:
-
----
-## Scenario wise git command questions:
 ## 🤝 Teamwork Examples with Git Commands
 
----
+### Scenario 1: Cloning the Project
 
-### **Scenario 1: Cloning the Project**
-
-> 🧑‍💻 You're joining an existing project.
-
-**Commands:**
+You're joining an existing project.
 
 ```bash
 git clone https://github.com/org/repo.git
 cd repo
 ```
 
-> 🔁 You now have a local copy of the project.
-
 ---
 
-### **Scenario 2: Creating a Feature Branch**
+### Scenario 2: Creating a Feature Branch
 
-> 🚀 You're building a new feature without affecting the main code.
-
-**Commands:**
+You're building a new feature without affecting the main code.
 
 ```bash
 git checkout -b feature/login
@@ -352,11 +335,9 @@ git commit -m "Add login form"
 
 ---
 
-### **Scenario 3: Pushing Your Work to Remote**
+### Scenario 3: Pushing Your Work to Remote
 
-> 📤 Share your work with the team.
-
-**Commands:**
+Share your work with the team.
 
 ```bash
 git push origin feature/login
@@ -364,29 +345,21 @@ git push origin feature/login
 
 ---
 
-### **Scenario 4: Creating a Pull Request**
+### Scenario 4: Creating a Pull Request
 
-> 🔁 Merge your feature into the `main` branch using GitHub UI.
-
-**Steps:**
-
-1. Go to GitHub
-2. Select your branch → Click "Compare & pull request"
-3. Add title/description → Submit PR
+Merge your feature into the `main` branch using GitHub UI.
 
 ---
 
-### **Scenario 5: Team Reviews and Approves Pull Request**
+### Scenario 5: Team Reviews and Approves Pull Request
 
-> ✅ Teammates give reviews, add comments, or request changes.
+Teammates give reviews, add comments, or request changes.
 
 ---
 
-### **Scenario 6: Pull Latest Changes**
+### Scenario 6: Pull Latest Changes
 
-> 📥 You want to stay updated with the latest team changes.
-
-**Commands:**
+You want to stay updated with the latest team changes.
 
 ```bash
 git checkout main
@@ -395,26 +368,22 @@ git pull origin main
 
 ---
 
-### **Scenario 7: Resolve Merge Conflict**
+### Scenario 7: Resolve Merge Conflict
 
-> ⚠️ Two people edited the same file.
-
-**Commands:**
+Two people edited the same file.
 
 ```bash
 git merge feature/login
-# If conflict: open file → fix manually
+# fix manually
 git add conflicted-file.txt
 git commit -m "Resolve conflict"
 ```
 
 ---
 
-### **Scenario 8: Rebase Instead of Merge (Optional)**
+### Scenario 8: Rebase Instead of Merge
 
-> 🧼 Clean history before pushing.
-
-**Commands:**
+Clean history before pushing.
 
 ```bash
 git checkout feature/login
@@ -423,26 +392,22 @@ git rebase main
 
 ---
 
-### **Scenario 9: Use Git Stash During Code Review**
+### Scenario 9: Use Git Stash During Code Review
 
-> 🔒 You’re in middle of something but need to switch branch.
-
-**Commands:**
+You're in the middle of something but need to switch branch.
 
 ```bash
 git stash
 git checkout main
-# after switching back
+# then back
 git stash apply
 ```
 
 ---
 
-### **Scenario 10: Cherry-Pick a Hotfix**
+### Scenario 10: Cherry-Pick a Hotfix
 
-> 🍒 Take one specific commit from another branch.
-
-**Commands:**
+Take one specific commit from another branch.
 
 ```bash
 git cherry-pick <commit-hash>
@@ -450,26 +415,22 @@ git cherry-pick <commit-hash>
 
 ---
 
-### **Scenario 11: Reset a Mistake in a Shared Repo (Be Careful)**
+### Scenario 11: Reset a Mistake in a Shared Repo
 
-> 🔁 You've pushed something wrong, need to undo.
-
-**Commands (for local correction):**
+You've pushed something wrong, need to undo.
 
 ```bash
 git reset --hard HEAD~1
 git push --force
 ```
 
-> ⚠️ Only do this if you're **sure** others haven't pulled the bad commit.
+> ⚠️ Only do this if you're **sure** others haven’t pulled the bad commit.
 
 ---
 
-### **Scenario 12: Revert a Commit Safely (on shared branches)**
+### Scenario 12: Revert a Commit Safely
 
-> 🧯 Undo a bad commit **without rewriting history**.
-
-**Command:**
+Undo a bad commit without rewriting history.
 
 ```bash
 git revert <commit-hash>
@@ -477,11 +438,9 @@ git revert <commit-hash>
 
 ---
 
-### **Scenario 13: Review Work of Others**
+### Scenario 13: Review Work of Others
 
-> 👀 Check another team member’s branch.
-
-**Commands:**
+Check another team member’s branch.
 
 ```bash
 git fetch origin
@@ -490,11 +449,9 @@ git checkout feature/teammate-branch
 
 ---
 
-### **Scenario 14: Track Team Activity**
+### Scenario 14: Track Team Activity
 
-> 🕵️ View who pushed what.
-
-**Commands:**
+View who pushed what.
 
 ```bash
 git log --oneline --graph --all --decorate
@@ -502,11 +459,9 @@ git log --oneline --graph --all --decorate
 
 ---
 
-### **Scenario 15: Fork for External Collaboration**
+### Scenario 15: Fork for External Collaboration
 
-> 🌐 Fork a public repo and collaborate.
-
-**Commands:**
+Fork a public repo and collaborate.
 
 ```bash
 # On GitHub → Click "Fork"
@@ -514,12 +469,21 @@ git clone https://github.com/your-username/forked-repo.git
 ```
 
 ---
+
 ## 🙌 Contributing
+
 Have a command or section you'd like to add? Feel free to open an issue or submit a pull request.
 
 ## 📄 License
+
 This project is licensed under the MIT License. You are free to use, modify, and distribute this guide.
 
 ## 👤 Author
+
 Maintained by Arya Kashikar.
 If you found this helpful, consider ⭐️ starring the repo!
+
+---
+
+Let me know if you'd like this converted into a `.md` file directly or need a ZIP-ready version for upload.
+
