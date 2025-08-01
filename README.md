@@ -312,4 +312,208 @@ Installs Git on Debian-based systems.
 
 ---
 
+Got it! You're asking for **realistic team collaboration examples** using Git — like how team members would use Git commands while working together on a shared project.
+
+Here are **common team collaboration scenarios** along with **Git commands** to be used at each step:
+
+---
+## Scenario wise git command questions:
+## 🤝 Teamwork Examples with Git Commands
+
+---
+
+### **Scenario 1: Cloning the Project**
+
+> 🧑‍💻 You're joining an existing project.
+
+**Commands:**
+
+```bash
+git clone https://github.com/org/repo.git
+cd repo
+```
+
+> 🔁 You now have a local copy of the project.
+
+---
+
+### **Scenario 2: Creating a Feature Branch**
+
+> 🚀 You're building a new feature without affecting the main code.
+
+**Commands:**
+
+```bash
+git checkout -b feature/login
+# make changes
+git add .
+git commit -m "Add login form"
+```
+
+---
+
+### **Scenario 3: Pushing Your Work to Remote**
+
+> 📤 Share your work with the team.
+
+**Commands:**
+
+```bash
+git push origin feature/login
+```
+
+---
+
+### **Scenario 4: Creating a Pull Request**
+
+> 🔁 Merge your feature into the `main` branch using GitHub UI.
+
+**Steps:**
+
+1. Go to GitHub
+2. Select your branch → Click "Compare & pull request"
+3. Add title/description → Submit PR
+
+---
+
+### **Scenario 5: Team Reviews and Approves Pull Request**
+
+> ✅ Teammates give reviews, add comments, or request changes.
+
+---
+
+### **Scenario 6: Pull Latest Changes**
+
+> 📥 You want to stay updated with the latest team changes.
+
+**Commands:**
+
+```bash
+git checkout main
+git pull origin main
+```
+
+---
+
+### **Scenario 7: Resolve Merge Conflict**
+
+> ⚠️ Two people edited the same file.
+
+**Commands:**
+
+```bash
+git merge feature/login
+# If conflict: open file → fix manually
+git add conflicted-file.txt
+git commit -m "Resolve conflict"
+```
+
+---
+
+### **Scenario 8: Rebase Instead of Merge (Optional)**
+
+> 🧼 Clean history before pushing.
+
+**Commands:**
+
+```bash
+git checkout feature/login
+git rebase main
+```
+
+---
+
+### **Scenario 9: Use Git Stash During Code Review**
+
+> 🔒 You’re in middle of something but need to switch branch.
+
+**Commands:**
+
+```bash
+git stash
+git checkout main
+# after switching back
+git stash apply
+```
+
+---
+
+### **Scenario 10: Cherry-Pick a Hotfix**
+
+> 🍒 Take one specific commit from another branch.
+
+**Commands:**
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+---
+
+### **Scenario 11: Reset a Mistake in a Shared Repo (Be Careful)**
+
+> 🔁 You've pushed something wrong, need to undo.
+
+**Commands (for local correction):**
+
+```bash
+git reset --hard HEAD~1
+git push --force
+```
+
+> ⚠️ Only do this if you're **sure** others haven't pulled the bad commit.
+
+---
+
+### **Scenario 12: Revert a Commit Safely (on shared branches)**
+
+> 🧯 Undo a bad commit **without rewriting history**.
+
+**Command:**
+
+```bash
+git revert <commit-hash>
+```
+
+---
+
+### **Scenario 13: Review Work of Others**
+
+> 👀 Check another team member’s branch.
+
+**Commands:**
+
+```bash
+git fetch origin
+git checkout feature/teammate-branch
+```
+
+---
+
+### **Scenario 14: Track Team Activity**
+
+> 🕵️ View who pushed what.
+
+**Commands:**
+
+```bash
+git log --oneline --graph --all --decorate
+```
+
+---
+
+### **Scenario 15: Fork for External Collaboration**
+
+> 🌐 Fork a public repo and collaborate.
+
+**Commands:**
+
+```bash
+# On GitHub → Click "Fork"
+git clone https://github.com/your-username/forked-repo.git
+```
+
+---
+
+
 
