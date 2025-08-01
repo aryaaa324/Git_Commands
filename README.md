@@ -19,7 +19,6 @@ A beginner-friendly and categorized reference for essential Git commands with ex
 11. [Cherry-Picking](#cherry-picking)
 12. [Reset & Revert](#reset--revert)
 13. [Stashing](#stashing)
----
 
 ## 1. Installation
 
