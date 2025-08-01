@@ -2,7 +2,33 @@
 This repository contains all the essential git commands, great for quick revisions !
 
 
-##  1. Installation
+
+````markdown
+# 🚀 Git Commands Cheat Sheet
+
+A beginner-friendly and categorized reference for essential Git commands with examples.
+
+---
+
+## 📚 Table of Contents
+
+1. [Installation](#-1-installation)
+2. [Initializing Git Repository](#-2-initializing-git-repository)
+3. [Basic File Operations](#-3-basic-file-operations)
+4. [View History](#-4-view-history)
+5. [Branching](#-5-branching)
+6. [Remote Repositories](#-6-remote-repositories)
+7. [Pull Requests](#-7-pull-requests-on-github)
+8. [Merge & Conflict Resolution](#-8-merge--conflict-resolution)
+9. [Forking](#-9-forking)
+10. [Rebasing](#-10-rebasing)
+11. [Cherry-Picking](#-11-cherry-picking)
+12. [Reset & Revert](#-12-reset--revert)
+13. [Stashing](#-13-stashing)
+
+---
+
+## 🛠️ 1. Installation
 
 - **Install Git**
   ```bash
@@ -13,7 +39,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  2. Initializing Git Repository
+## 📁 2. Initializing Git Repository
 
 * **Initialize Git in a Project**
 
@@ -25,7 +51,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  3. Basic File Operations
+## 🧾 3. Basic File Operations
 
 * **Check Status of Files**
 
@@ -61,7 +87,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  4. View History
+## 📜 4. View History
 
 * **View Commit History**
 
@@ -81,7 +107,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  5. Branching
+## 🌿 5. Branching
 
 * **Create a Branch**
 
@@ -125,7 +151,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  6. Remote Repositories
+## ☁️ 6. Remote Repositories
 
 * **Add Remote Origin**
 
@@ -169,14 +195,14 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  7. Pull Requests (on GitHub)
+## 🔀 7. Pull Requests (on GitHub)
 
 * **Pull Request (Manual via GitHub UI)**
   Push your branch and go to GitHub → "Compare & pull request" → Submit pull request.
 
 ---
 
-##  8. Merge & Conflict Resolution
+## ⚔️ 8. Merge & Conflict Resolution
 
 * **Merge Branch**
 
@@ -187,11 +213,11 @@ Installs Git on Debian-based systems.
   Merges a branch into the current one.
 
 * **Resolve Conflicts**
-  Open conflicted files manually → fix → stage → commit.
+  Open conflicted files manually → fix → stage using `git add <file>` → commit.
 
 ---
 
-##  9. Forking
+## 🍴 9. Forking
 
 * **Fork a Repo (via GitHub UI)**
   Use GitHub’s "Fork" button → then:
@@ -202,7 +228,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  10. Rebasing
+## 🔁 10. Rebasing
 
 * **Rebase Current Branch**
 
@@ -210,7 +236,7 @@ Installs Git on Debian-based systems.
   git rebase main
   ```
 
-  Moves commits on your branch to the latest main branch tip.
+  Moves commits on your branch to the latest `main`.
 
 * **Interactive Rebase**
 
@@ -222,7 +248,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  11. Cherry-Picking
+## 🍒 11. Cherry-Picking
 
 * **Cherry Pick a Commit**
 
@@ -234,7 +260,7 @@ Installs Git on Debian-based systems.
 
 ---
 
-##  12. Reset & Revert
+## ♻️ 12. Reset & Revert
 
 * **Reset to Previous Commit**
 
@@ -242,7 +268,7 @@ Installs Git on Debian-based systems.
   git reset --hard HEAD~1
   ```
 
-  Removes last commit and changes.
+  Removes the last commit and changes.
 
 * **Revert a Commit**
 
@@ -250,11 +276,11 @@ Installs Git on Debian-based systems.
   git revert <commit-hash>
   ```
 
-  Reverts a commit without changing history.
+  Reverts a commit without modifying history.
 
 ---
 
-##  13. Stashing
+## 📦 13. Stashing
 
 * **Stash Current Changes**
 
@@ -262,7 +288,7 @@ Installs Git on Debian-based systems.
   git stash
   ```
 
-  Saves unfinished changes.
+  Saves unfinished changes temporarily.
 
 * **Apply Latest Stash**
 
@@ -277,3 +303,13 @@ Installs Git on Debian-based systems.
   ```bash
   git stash list
   ```
+
+  Shows all stashed changes.
+
+---
+
+💡 **Pro Tip**: Use `git config --global alias.co checkout` to create aliases for frequently used commands.
+
+---
+
+
